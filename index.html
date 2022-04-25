@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Wedding Planner Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- Header section starts  -->
+
+<header>
+
+    <img src="wedding_icon.png" alt="Icon"  height="50" width="50">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#clients">Clients</a>
+        <a href="#team">Team</a>
+        <a href="#payment">Payment</a>
+        <a href="#contact">Contact</a>        
+        <a href="#blog">Blog</a>
+        <a href="#login">Login</a>
+    </nav>
+
+</header>
+
+<!-- Header section ends -->
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>Wedding Planner Agency</span>
+        <h3>We Make Every Moment Special!</h3>
+        <a href="#" class="btn">Learm More</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- Scripts -->
+
+<script> 
+
+    let menu = document.querySelector('#menu-bar');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.addEventListener('click', () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('nav-toggle');
+    });
+    
+    window.onscroll = () =>{
+        menu.classList.remove('fa-times');
+        navbar.classList.remove('nav-toggle');
+    }
+    
+    </script>
+
+
+</body>
+
+</html>
