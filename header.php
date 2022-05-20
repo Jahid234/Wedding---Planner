@@ -13,6 +13,5 @@
             <a href="blog.php">Blog</a>
             <a href="sign in.php">Sign in</a>
         </nav>
-
-
-    </header>
+        
+</header>
