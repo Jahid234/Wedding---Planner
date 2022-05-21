@@ -47,7 +47,7 @@
     <div class="box">
         <img src="Jahid_NEUB.jpg" alt="">
         <h3>Jahid</h3>
-        <span>wedding planner</span>
+        <span>Project Manager</span>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
@@ -84,20 +84,45 @@
         </div>
     </div>
 
+    <div class="box">
+        <img src="team-5.jpg" alt="">
+        <h3>Hop Kins</h3>
+        <span>wedding planner</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="team-6.jpg" alt="">
+        <h3>Alesha Mart</h3>
+        <span>wedding planner</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+
+
 </div>
 
 </section>
 
-<!-- team section ends -->
-
-
-    
+<!-- team section ends -->   
 
 
 
-    <!-- Scripts -->
+<!-- Scripts -->
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
     
 </body>
 
