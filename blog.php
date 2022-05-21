@@ -31,9 +31,19 @@
 <div class="box-container">
 
     <div class="box">
+        <div class="info">            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ylxxT_akcEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3> <span>01. </span> Wedding Blog</h3>
+                <p>You can watch the video for better understand</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+        
+    </div>
+
+    <div class="box">
         <img src="blog-1.jpg" alt="">
         <div class="info">
-            <h3> <span>01. </span> blog title goes here </h3>
+            <h3> <span>02. </span> Photography blog </h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
             <a href="#" class="btn">learn more</a>
         </div>
@@ -42,8 +52,8 @@
     <div class="box">
         <img src="blog-2.jpg" alt="">
         <div class="info">
-            <h3> <span>02. </span> blog title goes here </h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
+            <h3> <span>03. </span> wedding ceremony blog</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
             <a href="#" class="btn">learn more</a>
         </div>
     </div>
@@ -51,10 +61,30 @@
     <div class="box">
         <img src="blog-3.jpg" alt="">
         <div class="info">
-            <h3> <span>03. </span> blog title goes here </h3>
+            <h3> <span>04. </span> wedding cake blog </h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
             <a href="#" class="btn">learn more</a>
         </div>
+    </div>
+
+    <div class="box">
+        <div class="info">            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8DZ-HUCHUxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3> <span>05. </span> Wedding Blog</h3>
+                <p>You can watch the video for better understand</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+        
+    </div>
+
+    <div class="box">
+        <div class="info">            
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/71rymC6pvtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3> <span>06. </span> Wedding Blog</h3>
+                <p>You can watch the video for better understand</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+        
     </div>
 
 </div>
