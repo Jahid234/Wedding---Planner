@@ -4,7 +4,7 @@
 <head>    
     <title> Sign in </title>
 
-    <!-- font awesome cdn link  -->
+    <!-- font cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- css file link -->
@@ -14,21 +14,14 @@
 
 <body>
 
-    <?php @include 'header.php'; ?>
+    <?php @include 'header.php'; ?>   
     
-    <?php @include 'home.php'; ?>
-
-
-
     <!-- Login section satrts -->
 
     <section class="login" id="login">
-        <div class="container">
-            <div class="imagetop">
-                <div class="image1"></div>
-            </div>
+        <div class="container">            
             <div class="Login">
-                <h2>SIGN IN</h2>
+                <h2>Log in</h2>
                 <form>
                     <div class="inputbox">
                         <label for="email"><i class="fa fa-user"></i></label>
@@ -40,14 +33,11 @@
                         <input type="password" id="password" placeholder="Password">
                     </div>
 
-                    <input type="submit" value="SIGN IN">
+                    <input type="submit" value="login">
                 </form>
                 <p>Forgot password ?</p>
-                <p>Don't Have account?<span>SIGN UP</span></p>
-            </div>
-            <div class="imagebottom">
-
-            </div>
+                <p>Don't Have account?<span> <a href="signup.php">SIGN UP</a> </span></p>
+            </div>            
         </div>
     </section>
 
