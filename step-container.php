@@ -45,6 +45,6 @@
             <a href="#" class="btn">Learn more</a>
         </div>
 
-</section>
+    </section>
 
-<!-- Step-Container ends -->
+    <!-- Step-Container ends -->
