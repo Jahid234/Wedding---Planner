@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,16 +18,13 @@
 
     <?php @include 'header.php'; ?>
 
-    <?php @include 'home.php'; ?>
-
-
-<!-- contact section starts  -->
+    <!-- contact section starts  -->
 
 <section class="contact" id="contact">
 
 <div class="heading">
     <h1>contact us</h1>
-    <img src="header-img.png" alt="">
+    <img src="img/header-img.png" alt="">
 </div>
 
 <form action="" method="post">
@@ -76,12 +74,6 @@
 </section>
 
 <!-- contact section ends -->
-
-
-<?php @include 'clients.php'; ?>
-
-
-
 
     <!-- Scripts -->
 
