@@ -16,113 +16,105 @@
 
     <?php @include 'header.php'; ?>
 
-    <?php @include 'home.php'; ?>
-
-
-
     <!-- team section starts  -->
 
-<section class="team" id="team">
+    <section class="team" id="team">
 
-<div class="heading">
-    <h1>our creative team</h1>
-    <img src="header-img.png" alt="">
-</div>
-
-<div class="box-container">
-
-    <div class="box">
-        <img src="team-1.png" alt="">
-        <h3>Alex Hales</h3>
-        <span>wedding planner</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+        <div class="heading">
+            <h1>our creative team</h1>
+            <img src="img/header-img.png" alt="">
         </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/team-1.png" alt="">
+                <h3>Alex Hales</h3>
+                <span>wedding planner</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img src="img/Jahid_NEUB.jpg" alt="">
+            <h3>Jahid</h3>
+            <span>Project Manager</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/team-3.png" alt="">
+            <h3>Phunchung Wangdo</h3>
+            <span>wedding planner</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="img/team-4.jpg" alt="">
+            <h3>Jonny Ben</h3>
+            <span>wedding planner</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/team-5.jpg" alt="">
+            <h3>Hop Kins</h3>
+            <span>wedding planner</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/team-6.jpg" alt="">
+            <h3>Alesha Mart</h3>
+            <span>wedding planner</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
     </div>
 
-    <div class="box">
-        <img src="Jahid_NEUB.jpg" alt="">
-        <h3>Jahid</h3>
-        <span>Project Manager</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
+    </section>
 
-    <div class="box">
-        <img src="team-3.png" alt="">
-        <h3>Phunchung Wangdo</h3>
-        <span>wedding planner</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
+    <!-- team section ends --> 
 
+    <!-- Scripts -->
 
-    <div class="box">
-        <img src="team-4.jpg" alt="">
-        <h3>Jonny Ben</h3>
-        <span>wedding planner</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="team-5.jpg" alt="">
-        <h3>Hop Kins</h3>
-        <span>wedding planner</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="team-6.jpg" alt="">
-        <h3>Alesha Mart</h3>
-        <span>wedding planner</span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nisi ea quisquam ipsa molestias itaque, quod quis id doloremque similique!</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
-
-
-
-</div>
-
-</section>
-
-<!-- team section ends -->   
-
-
-
-<!-- Scripts -->
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
     
 </body>
 
