@@ -1,6 +1,3 @@
-<?php @include 'home.php'; ?>
-
-
 <section class="footer">
 
 <div class="box-container">
@@ -36,18 +33,18 @@
         <a href="#"> <i class="fas fa-phone"></i> 06298 </a>
         <a href="#"> <i class="fas fa-envelope"></i> jahid1213cvgc@gmail.com </a>
         <a href="#"> <i class="fas fa-envelope"></i> jahidneub23@gmail.com </a>
-        <a href="#"> <i class="fas fa-envelope"></i> jahidneub_2020s@yahoo.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> jahid_neub2020s@yahoo.com </a>
         <a href="#"> <i class="fas fa-map"></i> North East University Bangladesh </a>
         <a href="#"> <i class="fas fa-map"></i> Sylhet Sadar, Sylhet, Bangladesh </a>
     </div>
 
     <div class="box">
         <h3>follow us</h3>
-        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="https://web.facebook.com/jahid.abrar.29/"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="https://mobile.twitter.com/MdJahid48636910"> <i class="fab fa-twitter"></i> twitter </a>
         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-        <a href="#"> <i class="fab fa-github"></i> github </a>
+        <a href="https://www.linkedin.com/in/md-jahidul-islam-557b1b1b9/"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="https://github.com/Jahid234"> <i class="fab fa-github"></i> github </a>
     </div>
 
 </div>
