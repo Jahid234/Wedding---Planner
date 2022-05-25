@@ -33,20 +33,23 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10000;
-    /* background: var(--blue); */
+    z-index: 10;
+    background-color: var(--black);
     padding: 2rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* header img{
+    margin-right: 100px;
+} */
 
 
 header .navbar a {
     color: #fff;
     font-size: 2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 
@@ -61,17 +64,51 @@ header .navbar a {
 } */
 
 header .navbar a:hover {
-    color: blue;
+    color: orangered;
 }
 
-#menu-bar {
-    font-size: 3rem;
-    color: #fff;
+a.active{
+    background-color: green;
+}
+
+#menu-bar{
+    font-size:3rem;
+    color:#fff;
     border-radius: .5rem;
-    border: .1rem solid #fff;
-    padding: .5rem 1.5rem;
+    border:.1rem solid #fff;
+    padding:.5rem 1.5rem;
     cursor: pointer;
     display: none;
+  }
+
+.menu1 .submenu1{
+    display: none;
+    background-color: aliceblue;
+}
+
+.navbar .menu1:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: whitesmoke;
+    /* margin-top: 15px; */
+    margin-left: -15px;
+}
+
+.navbar .menu1:hover .submenu1 a{
+    display: block;
+    margin: 10px;
+}
+
+.navbar .menu1:hover .submenu1 a:last-child{
+    border-bottom: none;
+}
+
+.navbar .menu1:hover .submenu1 a{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    text-align: left;
 }
 
 section {
@@ -84,6 +121,17 @@ section {
 .about {
     background-color: #130f40;
 }
+
+
+@keyframes PopUp {
+    0%{
+       transform: scale(0);
+    }
+}
+
+.about .box .box-container .box img{
+    animation:PopUp .2s linear backwards .2s;
+ }
 
 .about .heading h1 {
     color: white;
@@ -120,6 +168,7 @@ section {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: .2s linear;
 }
 
 .about .box-container .box .info {
@@ -168,7 +217,7 @@ section {
 .home {
     min-height: 100vh;
     width: 100%;
-    background-image: url(home-bg.jpg);
+    background-image: url(img/home-bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -315,6 +364,7 @@ section {
 
 .Payment h3 {
     font-size: 1.2rem;
+    font-style: bold;
     text-transform: uppercase;
     color: var(--black);
 }
@@ -495,7 +545,7 @@ section {
     margin:1rem;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
-    background:#fff url(card-bg.png) no-repeat;
+    background:#fff url(img/card-bg.png) no-repeat;
     padding:4.7rem 2rem;
     text-align: center;
     background-size: cover;
@@ -743,7 +793,7 @@ section {
 
 /* login */
 
-.Login {
+.Login, .Signup {
     background-color: grey;
     box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1), 10px 10px 15px rgba(0, 0, 0, 0.1);
     width: 50%;
@@ -763,7 +813,7 @@ section {
     margin-left: -160px;
 } */
 
-form {
+.Login form, .Signup form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -771,11 +821,11 @@ form {
     margin: 20px 0px;
 }
 
-.Login:hover {
+.Login:hover, .Signup:hover {
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
-.inputbox {
+.Login .inputbox, .Signup .inputBox {
     background-color: #fff;
     padding: 3px 10px;
     margin: 10px 5px;
@@ -783,7 +833,7 @@ form {
     width: 100%;
 }
 
-input {
+.Login input, .Signup input {
     font-size: 15px;
     width: 210px;
     height: 25px;
@@ -792,7 +842,7 @@ input {
     padding-left: 5px;
 }
 
-input[type="submit"] {
+.Login input[type="submit"], .Signup input[type="submit"] {
     margin: 20px 0px;
     width: 200px;
     height: 50px;
@@ -801,18 +851,20 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-.login p {
+.Login p, .Signup p {
     margin-bottom: 20px;
 }
 
-.login span {
+.Login span, .Signup span {
     padding-left: 5px;
     color: rgb(33, 26, 112);
 }
 
-.loginbox p, span:hover {
+/* .loginbox p, span:hover, .signupbox p, span:hover {
     color: white;
-}
+} */
+
+
 
 
 /* media queries  */
